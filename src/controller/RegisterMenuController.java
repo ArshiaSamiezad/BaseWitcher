@@ -33,5 +33,12 @@ public class RegisterMenuController {
         return false;
     }
     
-    ...
+    private boolean isRegisterValid(String username, String password, String passwordConfirm, String nickname,
+                                    String email){
+        return false;
+    }
+
+    public void pickQuestion(int questionNumber, String answer, String answerConfirm){
+
+    }
 }

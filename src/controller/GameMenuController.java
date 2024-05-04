@@ -3,6 +3,7 @@ package controller;
 import model.Player;
 
 public class GameMenuController {
+
     public void showCurrentMenu() {
 
     }
@@ -87,7 +88,15 @@ public class GameMenuController {
 
     }
 
-    private void createGameHistory(Player player){
+    private void createGameHistory(Player player1, Player player2){
+
+    }
+
+    private void addScoreToGameHistoryRound(Player player1, Player player2){
+
+    }
+
+    private void completeGameHistory(Player player1, Player player2){
 
     }
 }
